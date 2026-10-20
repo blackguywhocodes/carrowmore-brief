@@ -1,0 +1,12 @@
+[project]
+name = "carrowmore"
+version = "0.1.0"
+description = "Carrowmore redeployment concept test: who could do which job, on what evidence"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
